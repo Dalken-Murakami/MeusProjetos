@@ -7,6 +7,40 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 /*barra de navegação*/
 nav {
-    background-color: aquamarine;
+    background-color: #a8a8a8;
     border-bottom: 3px solid black;
+    height: 50px;
+}
+
+#logo{
+color: #fff;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+position: absolute;
+top: 15px;
+left: 10px;
+}
+
+
+#menu{
+    list-style: none;
+    float: right;
+    margin-top: 10px;
+}
+.item{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.item a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.item a:hover{
+    color: blueviolet;
+    transform: 0.5s;
 }
