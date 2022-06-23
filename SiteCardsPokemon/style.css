@@ -1,0 +1,80 @@
+/*reset*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*cabeçalho*/
+h1 , p{
+    text-align: center;
+}
+
+hi {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color:  #4a87E8
+}
+
+/*galeria*/
+.container {
+    
+    margin: 0 auto;
+    text-align: center;   
+}
+.card {
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    border: 1px solid  #4a87E8;
+}
+
+.card-image{
+    height: 200px;
+    background-size: cover;
+}
+
+.card-1 .card-image {
+    background-image: url("../SiteCardsPokemon/img/pikachu.jpg");
+}
+.card-2 .card-image{
+    background-image: url("../SiteCardsPokemon/img/bolbasor.jpg");
+}
+.card-3 .card-image{
+    background-image: url("../SiteCardsPokemon/img/charmander.png");
+}
+.card-4 .card-image{
+    background-image: url("../SiteCardsPokemon/img/entei.jpg");
+}
+.card-5 .card-image{
+    background-image: url("../SiteCardsPokemon/img/lugia.png");
+}
+.card-6 .card-image{
+    background-image: url("../SiteCardsPokemon/img/mew.png");
+}.card-7 .card-image{
+    background-image: url("../SiteCardsPokemon/img/mewtwo.jpg");
+}
+.card-8 .card-image{
+    background-image: url("../SiteCardsPokemon/img/squartle.jpeg");
+}
+
+.btn{
+    display: block;
+    background-color: #4a87E8;
+    color: aliceblue;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: antiquewhite;
+    color: #4a87E8;
+    border-color: #4a87E8;
+}
+.card-description {
+    padding: 10px;
+}
